@@ -1,0 +1,8 @@
+	sh_tag_list = ["Donal Trump", "Hillary Clinton", "Barack Obama", "Bernie Sanders"]
+	fetched_tweets_filename = "tweets.txt"
+
+	twitter_client = TwitterClient('kompascom')
+    	print(twitter_client.get_user_timeline_tweets(1))
+
+#    twitter_streamer = TwitterStreamer()
+#    twitter_streamer.stream_tweets(fetched_tweets_filename, hash_tag_list)
